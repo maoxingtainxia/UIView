@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2843D501C3D0C8E000175D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2843D4F1C3D0C8E000175D3 /* main.m */; };
+		E2843D531C3D0C8E000175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2843D521C3D0C8E000175D3 /* AppDelegate.m */; };
+		E2843D5B1C3D0C8E000175D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2843D5A1C3D0C8E000175D3 /* Images.xcassets */; };
+		E2843D5E1C3D0C8E000175D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2843D5C1C3D0C8E000175D3 /* LaunchScreen.xib */; };
+		E2843D6A1C3D0C8E000175D3 /* _1_UIWindow___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2843D691C3D0C8E000175D3 /* _1_UIWindow___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2843D641C3D0C8E000175D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2843D421C3D0C8E000175D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2843D491C3D0C8E000175D3;
+			remoteInfo = "01 UIWindow的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2843D4A1C3D0C8E000175D3 /* 01 UIWindow的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01 UIWindow的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2843D4E1C3D0C8E000175D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2843D4F1C3D0C8E000175D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2843D511C3D0C8E000175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2843D521C3D0C8E000175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2843D5A1C3D0C8E000175D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2843D5D1C3D0C8E000175D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E2843D631C3D0C8E000175D3 /* 01 UIWindow的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01 UIWindow的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2843D681C3D0C8E000175D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2843D691C3D0C8E000175D3 /* _1_UIWindow___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_UIWindow___Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2843D471C3D0C8E000175D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2843D601C3D0C8E000175D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2843D411C3D0C8E000175D3 = {
+			isa = PBXGroup;
+			children = (
+				E2843D4C1C3D0C8E000175D3 /* 01 UIWindow的使用 */,
+				E2843D661C3D0C8E000175D3 /* 01 UIWindow的使用Tests */,
+				E2843D4B1C3D0C8E000175D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2843D4B1C3D0C8E000175D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2843D4A1C3D0C8E000175D3 /* 01 UIWindow的使用.app */,
+				E2843D631C3D0C8E000175D3 /* 01 UIWindow的使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2843D4C1C3D0C8E000175D3 /* 01 UIWindow的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				E2843D511C3D0C8E000175D3 /* AppDelegate.h */,
+				E2843D521C3D0C8E000175D3 /* AppDelegate.m */,
+				E2843D5A1C3D0C8E000175D3 /* Images.xcassets */,
+				E2843D5C1C3D0C8E000175D3 /* LaunchScreen.xib */,
+				E2843D4D1C3D0C8E000175D3 /* Supporting Files */,
+			);
+			path = "01 UIWindow的使用";
+			sourceTree = "<group>";
+		};
+		E2843D4D1C3D0C8E000175D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2843D4E1C3D0C8E000175D3 /* Info.plist */,
+				E2843D4F1C3D0C8E000175D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2843D661C3D0C8E000175D3 /* 01 UIWindow的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E2843D691C3D0C8E000175D3 /* _1_UIWindow___Tests.m */,
+				E2843D671C3D0C8E000175D3 /* Supporting Files */,
+			);
+			path = "01 UIWindow的使用Tests";
+			sourceTree = "<group>";
+		};
+		E2843D671C3D0C8E000175D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2843D681C3D0C8E000175D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2843D491C3D0C8E000175D3 /* 01 UIWindow的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2843D6D1C3D0C8E000175D3 /* Build configuration list for PBXNativeTarget "01 UIWindow的使用" */;
+			buildPhases = (
+				E2843D461C3D0C8E000175D3 /* Sources */,
+				E2843D471C3D0C8E000175D3 /* Frameworks */,
+				E2843D481C3D0C8E000175D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01 UIWindow的使用";
+			productName = "01 UIWindow的使用";
+			productReference = E2843D4A1C3D0C8E000175D3 /* 01 UIWindow的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2843D621C3D0C8E000175D3 /* 01 UIWindow的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2843D701C3D0C8E000175D3 /* Build configuration list for PBXNativeTarget "01 UIWindow的使用Tests" */;
+			buildPhases = (
+				E2843D5F1C3D0C8E000175D3 /* Sources */,
+				E2843D601C3D0C8E000175D3 /* Frameworks */,
+				E2843D611C3D0C8E000175D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2843D651C3D0C8E000175D3 /* PBXTargetDependency */,
+			);
+			name = "01 UIWindow的使用Tests";
+			productName = "01 UIWindow的使用Tests";
+			productReference = E2843D631C3D0C8E000175D3 /* 01 UIWindow的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2843D421C3D0C8E000175D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "贝沃汇力";
+				TargetAttributes = {
+					E2843D491C3D0C8E000175D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E2843D621C3D0C8E000175D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E2843D491C3D0C8E000175D3;
+					};
+				};
+			};
+			buildConfigurationList = E2843D451C3D0C8E000175D3 /* Build configuration list for PBXProject "01 UIWindow的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2843D411C3D0C8E000175D3;
+			productRefGroup = E2843D4B1C3D0C8E000175D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2843D491C3D0C8E000175D3 /* 01 UIWindow的使用 */,
+				E2843D621C3D0C8E000175D3 /* 01 UIWindow的使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2843D481C3D0C8E000175D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2843D5E1C3D0C8E000175D3 /* LaunchScreen.xib in Resources */,
+				E2843D5B1C3D0C8E000175D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2843D611C3D0C8E000175D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2843D461C3D0C8E000175D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2843D531C3D0C8E000175D3 /* AppDelegate.m in Sources */,
+				E2843D501C3D0C8E000175D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2843D5F1C3D0C8E000175D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2843D6A1C3D0C8E000175D3 /* _1_UIWindow___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2843D651C3D0C8E000175D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2843D491C3D0C8E000175D3 /* 01 UIWindow的使用 */;
+			targetProxy = E2843D641C3D0C8E000175D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2843D5C1C3D0C8E000175D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2843D5D1C3D0C8E000175D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2843D6B1C3D0C8E000175D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2843D6C1C3D0C8E000175D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2843D6E1C3D0C8E000175D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01 UIWindow的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2843D6F1C3D0C8E000175D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01 UIWindow的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2843D711C3D0C8E000175D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01 UIWindow的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01 UIWindow的使用.app/01 UIWindow的使用";
+			};
+			name = Debug;
+		};
+		E2843D721C3D0C8E000175D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01 UIWindow的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01 UIWindow的使用.app/01 UIWindow的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2843D451C3D0C8E000175D3 /* Build configuration list for PBXProject "01 UIWindow的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2843D6B1C3D0C8E000175D3 /* Debug */,
+				E2843D6C1C3D0C8E000175D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2843D6D1C3D0C8E000175D3 /* Build configuration list for PBXNativeTarget "01 UIWindow的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2843D6E1C3D0C8E000175D3 /* Debug */,
+				E2843D6F1C3D0C8E000175D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2843D701C3D0C8E000175D3 /* Build configuration list for PBXNativeTarget "01 UIWindow的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2843D711C3D0C8E000175D3 /* Debug */,
+				E2843D721C3D0C8E000175D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2843D421C3D0C8E000175D3 /* Project object */;
+}
